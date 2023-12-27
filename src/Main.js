@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import React, { useState, useEffect, useCallback } from 'react'; 
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/Home'; 
 import About from './components/About'; 
@@ -10,6 +9,7 @@ import PreScroll from './components/preScroll';
 import Outro from './components/Outroheh';
 import pixelBody from './pages/pixelBody'; 
 import projectSummary from './components/projectSummary';
+import { useNavigate } from 'react-router-dom';
 
 function Main() {
   const colorThemes = [
@@ -103,6 +103,12 @@ function Main() {
   }, [scrollPos]);
   var viewport = window.innerWidth || document.documentElement.clientWidth; 
 
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to the home route when the component mounts
+    navigate('/');
+  }, []);
 
 
   return (
