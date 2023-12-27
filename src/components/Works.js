@@ -38,7 +38,7 @@ function Works() {
                         title = "JENN'S WORLD"
                         label= "ReactJs| HTML/CSS | UX/UI | Product Design | Personal Branding"
                         des = "The near impossible task of recreating everything in my brain onto a single webpage
-                                + ( many many many redos until I got it right ) :D" 
+                        + ( many many many redos until I got it right ) :D" 
                     />
                 </Link>
             </div>
