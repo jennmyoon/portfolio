@@ -136,7 +136,7 @@ function PixelBody(props){
                 <div className="design-title">
                     DESIGN SYSTEM 
                 </div>
-                <div className="design-subtitle">
+                <div className="design-subtitle pix">
                 ✨v2.0 WIREFRAME, COLOR PALETTE, MOOD BOARD, CUSTOM ICONS, TYPOGRAPHY✨
                 </div>
                 <div className="process-body">

@@ -30,11 +30,15 @@
     padding: 1rem;
 }
 .pixel-des, .art-des{
-    border-left: 3px solid #FFA587;
+    border-left: 3px solid #ff9977;
     border-radius: 2px;
     width: 100%;
     /* margin-bottom: 1rem; */
     padding-left: 10px;
+}
+
+.pixel-des{
+    border-left: 3px solid #ff9977;
 }
 
 
@@ -191,6 +195,14 @@
         justify-content: center;
         width: 100%;
         font-size: clamp(1rem,22px,4vw);
+    }
+
+    .pixel-des li{
+        margin-left: .5rem;
+    }
+
+    .design-subtitle.pix{
+        color: #ff9977;
     }
  
 }

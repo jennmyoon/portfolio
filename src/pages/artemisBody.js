@@ -240,7 +240,7 @@ function ArtemisBody(){
                     TAKEAWAYS
                 </div>
                 <div className="section-bottom">
-                    <div className="pixel-des"> 
+                    <div className="pixel-des art"> 
                         YAY! With that my first client redesign project is concluded. Througout this project 
                         I was able to learn alot about the full design process. PRETTY DOESN'T ALWAYS MEAN 
                         FUNCTIONAL. It was important to remember that functionality has to go hand in hand
