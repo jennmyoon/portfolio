@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useEffect } from 'react-router-dom';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import ProjectSummary from './components/projectSummary';
