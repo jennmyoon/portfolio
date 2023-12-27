@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import ProjectSummary from './components/projectSummary';
 import Main from './Main';
-import Home from './components/Home';
 import PixelHead from './images/pixel_header.png';
 import JennWorldHead from './images/jenworld-header.png'; 
 import ArtemisHead from './images/ArtemisHead.png';
@@ -19,7 +18,7 @@ function App() {
     <Router restoreScroll={false}>
       <Main />
       <Routes>
-        <Route path='/' element={<Main/>} />
+        <Route path='/portfolio/' element={<Main/>} />
         <Route path='/p!xel' element={
           <ProjectSummary 
             img = {PixelHead}
