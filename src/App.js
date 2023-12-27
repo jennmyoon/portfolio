@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css';
 import ProjectSummary from './components/projectSummary';
 import Main from './Main';
@@ -14,9 +16,18 @@ import NavBar from './components/Navbar';
 
 
 function App() {
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to the home route when the component mounts
+    navigate('/');
+  }, []);
+
+
   
   return (
-    <Router restoreScroll={false}>
+
       <Routes>
         <Route path='/' element={<Main/>} />
         <Route path='/p!xel' element={
@@ -70,7 +81,6 @@ function App() {
         }/>
       </Routes>
 
-    </Router>
   );
 }
 
