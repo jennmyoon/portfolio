@@ -19,13 +19,15 @@ function Main() {
       "--main_text": "#697FA9",  
       '--card_color':'#697FA9',
       '--accent_color': '#001341',
+      "--secondary_text":"#EDEDE6",
     },
     //pink&red
     {
       "--body_bground":"#FCF6F6", 
       "--main_text": "#990112", 
       '--card_color':'#990112',
-      "--accent_color" :"#F7C5CB"
+      "--secondary_text":"white", 
+      "--accent_color" :"#F7C5CB",
     },
     //orange and black
     {
@@ -35,6 +37,7 @@ function Main() {
       '--secondary_text': 'black',
       '--accent_color': 'orange',
     },
+    //green and grey
     {
       "--body_bground":"#FAF7ED", 
       "--main_text": "#424B4F", 
@@ -42,9 +45,11 @@ function Main() {
       "--accent_color" :"#C5C93F", 
       '--secondary_text': '#FFFDF3',
     }, 
+
     {
       "--body_bground" : "#1c1c1c", 
       "--main_text":"white", 
+      "--secondary_text": "white",
       "--accent_color":"#62FF87",
       "--card_color":"#373737",
 

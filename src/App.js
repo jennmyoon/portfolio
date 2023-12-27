@@ -11,13 +11,15 @@ import Works from './components/Works';
 import PixelBody from './pages/pixelBody';
 import ArtemisBody from './pages/artemisBody';
 import JennsWorldBody from './pages/jennsWorldBody';
+import NavBar from './components/Navbar';
 
 
 function App() {
   return (
     <Router restoreScroll={false}>
+      <Main />
       <Routes>
-        <Route path='/portfolio' element={<Main/>} />
+        <Route path='/' element={<Main/>} />
         <Route path='/p!xel' element={
           <ProjectSummary 
             img = {PixelHead}
