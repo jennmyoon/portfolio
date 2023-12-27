@@ -17,7 +17,7 @@ function App() {
   return (
     <Router restoreScroll={false}>
       <Routes>
-        <Route path='/' element={<Main/>} />
+        <Route path='/portfolio' element={<Main/>} />
         <Route path='/p!xel' element={
           <ProjectSummary 
             img = {PixelHead}
