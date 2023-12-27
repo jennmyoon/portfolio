@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { useNavigate } from 'react-router-dom';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import ProjectSummary from './components/projectSummary';
@@ -14,11 +15,16 @@ import NavBar from './components/Navbar';
 
 
 function App() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to the home route when the component mounts
+    navigate('/');
+  }, []);
   return (
     <Router restoreScroll={false}>
-      <Main />
       <Routes>
-        <Route path='/portfolio/' element={<Main/>} />
+        <Route path='/' element={<Main/>} />
         <Route path='/p!xel' element={
           <ProjectSummary 
             img = {PixelHead}
