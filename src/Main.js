@@ -103,12 +103,7 @@ function Main() {
   }, [scrollPos]);
   var viewport = window.innerWidth || document.documentElement.clientWidth; 
 
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    // Redirect to the home route when the component mounts
-    navigate('/');
-  }, []);
+  
 
 
   return (
@@ -119,7 +114,7 @@ function Main() {
           }
           <NavBar scrollPosition = {scrollPos}/>
           <Home/>
-          <Works/>
+          <Works scrollPosition = {scrollPos}/>
           <About/>
           <Outro/>
         </div>

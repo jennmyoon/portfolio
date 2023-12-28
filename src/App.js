@@ -24,6 +24,11 @@ function App() {
     navigate('/');
   }, []);
 
+  useEffect(() => {
+    // Redirect to the home route when the component mounts
+    window.scrollTo(0, 0);
+  }, [navigate]);
+
 
   
   return (
