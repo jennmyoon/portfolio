@@ -19,10 +19,10 @@ function App() {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    // Redirect to the home route when the component mounts
-    navigate('/');
-  }, []);
+  // useEffect(() => {
+  //   // Redirect to the home route when the component mounts
+  //   navigate('/');
+  // }, []);
 
   useEffect(() => {
     // Redirect to the home route when the component mounts
