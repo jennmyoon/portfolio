@@ -16,7 +16,7 @@ function Works() {
                 <div className="worksTitle" >
                     WORKS ! 
                 </div>
-                <Link to='/p!xel'>
+                <Link to='/pixel'>
                     <ProjectCard 
                         img = {PixelMock}
                         title = "P!XL"

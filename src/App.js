@@ -35,7 +35,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Main/>} />
-        <Route path='/p!xel' element={
+        <Route path='/pixel' element={
           <ProjectSummary 
             img = {PixelHead}
             title = 'P!XL'

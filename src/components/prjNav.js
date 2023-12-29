@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useRef} from "react";
 import { Link} from "react-router-dom";
 import '../styles/project.css'
 
 function PrjNav(props){
 
-
+    console.log(props.next);
     return(
         <div className="prjNav" id="prjNav">
             
