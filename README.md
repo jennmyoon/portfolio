@@ -1,1 +1,1 @@
-check it out --> "https://jennmyoon.github.io/pixel/"
+check it out --> "https://jennmyoon.github.io/portfolio/"
