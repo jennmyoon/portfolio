@@ -18,6 +18,7 @@ function ProjectSummary(props){
     console.log(props.page)
     return(
         <div className="prj1--wrapper" id="homeTwo">
+            <div id="scrollWatcher" style={{backgroundColor: props.color}}></div>
             <PrjNav
                 color = {props.color}
                 next = {props.next}

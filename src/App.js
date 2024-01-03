@@ -18,7 +18,6 @@ import NavBar from './components/Navbar';
 function App() {
 
   const navigate = useNavigate();
-
   // useEffect(() => {
   //   // Redirect to the home route when the component mounts
   //   navigate('/');
