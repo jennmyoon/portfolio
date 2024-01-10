@@ -123,7 +123,7 @@ function ArtemisBody(){
                 <div className="design-title">
                     DESIGN PROCESS 
                 </div>
-                <div className="design-subtitle">
+                <div className="design-subtitle art">
                 ✨CRITIQUES, IDEATION, DESIGN SYSTEMS, WIREFRAMES, FINAL RENDITION✨
                 </div>
 
