@@ -64,11 +64,12 @@
 }
 
 .issue-des{
-    margin: 0.3rem;
+    margin: 0.3rem;    
 }
 .issue-des ul li{
     font-size: 1rem;
     font-family: Apfel;
+    list-style-type: none;
 }
 .issue-des ul li span{
     color: #ff9977;
@@ -165,7 +166,7 @@
     .pixel-subtitle, .art-subtitle{
         border-right: none;
         width: calc(100% - 32px);
-        padding: 0 1rem;
+        padding: 0;
     }
     .pixel-des, .art-des{
         width: 95%;
