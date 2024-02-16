@@ -329,9 +329,6 @@
     .design-title{
         font-size: clamp(2.3rem,40px, 5vw);
     }
-    .art-subtitle{
-        padding: 0 1rem;
-    }
     .wireframe.low{
         max-width: 80vw;
         max-height: 80vh;
@@ -344,7 +341,6 @@
         width: 95%;
     }
     .artsection{
-        width: calc(100% - 6rem);
         margin: 1rem;
     }
     .artsection.s6{

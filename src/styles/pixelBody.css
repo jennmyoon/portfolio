@@ -165,14 +165,17 @@
     .pixel-subtitle, .art-subtitle{
         border-right: none;
         width: calc(100% - 32px);
+        padding: 0 1rem;
     }
     .pixel-des, .art-des{
         width: 95%;
         padding-left: 10px;
     }
     .pixelsection, .artsection{
+        width: calc(100% - 3rem);
+        background-color: green;
         flex-direction: column;
-        margin-bottom: 0;
+        margin: 1rem;
     }
     .design-subtitle{
         max-width: 90%;
