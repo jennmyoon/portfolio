@@ -73,8 +73,8 @@ function PreScroll(props) {
 
 
     const titlestyle ={
-        opacity : scrollPos > 1000 ? 0 : 1,
-        transition: 'opacity 0.5s ease'
+        opacity : scrollPos > 430 ? 0 : 1,
+        transition: 'opacity 0.2s ease'
     };
 
   
@@ -90,23 +90,16 @@ function PreScroll(props) {
         <div className="PreScroll-wrapper" >
             <div className="landing--words">
                 <div className={`ps-title ${isVisible ? 'visible' : 'hidden'}`} style={titlestyle}>
-                    <span className="ps-header">jenn likes to... </span> <br/>
+                    <span className="ps-header">JENN LIKES TO... </span> <br/>
                     <div className="ps-wordBank">
-                        <div className="wb-rowOne">
+                        <div className="wb-rowThree">
                             <span className="wordOne"style={styleBorder(word)}>{word}</span> 
                             <span className="wordTwo"style={stylePre(secondWord, 2)}> <span>✦</span> {secondWord} <span>✦</span></span>
                             <span className="wordThree"style={styleBorder(thirdWord)}>{thirdWord} </span>
                             <span className="wordTwo"style={stylePre(fourthWord, 2)}> <span>✦</span> {fourthWord} <span>✦</span></span>
 
                         </div>
-                        <div className="wb-rowTwo">
-                            <span>✦</span>
-                            <span className="r2-wordTwo"style={stylePre(secondWord, 2)}>{secondWord}</span>
-                            <span className="r2-wordThree"style={styleBorder(fourthWord)}>{fourthWord} </span>
-                            <span className="r2-wordOne"style={stylePre(word)}>{word}</span> 
-                            <span className="r2-wordOne"style={stylePre(thirdWord)}>{thirdWord}</span> 
-                            <span>✦</span>
-                        </div>
+
                         <div className="wb-rowThree">
                             <span className="r3-wordThree"style={stylePre(thirdWord)}>{thirdWord} </span>
                             <span className="r3-star">✦</span><span className="r3-star">✦</span>
@@ -116,6 +109,9 @@ function PreScroll(props) {
                             <span className="r3-star">✦</span><span className="r3-star">✦</span>
                             <span className="r3-wordTwo"style={stylePre(secondWord, 2)}>{secondWord}</span>
                         </div>                       
+                        <div>
+                        ↓
+                        </div>
                     </div>
                 </div>
             </div>

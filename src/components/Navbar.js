@@ -7,7 +7,7 @@ function NavBar(props) {
 
     const navStyles = {
         position: "fixed", 
-        top: scrollPos < 800 ? "-60px" : 0, 
+        top: scrollPos == 0 ? "-60px" : 0, 
         transition : "top 0.3s" , 
     }
     const navStylestwo = {
