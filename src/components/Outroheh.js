@@ -4,8 +4,14 @@ import '../styles/footer.css';
 
 
 
-function Outro() {
+function Outro(props) {
+    const scrollPos =props.scrollPosition; 
     const [isHovered, setisHovered] = useState(false); 
+
+    const tagStyle ={
+        opacity : scrollPos > 540 ? 1 : 0,
+        transition: 'opacity 0.2s ease'
+    };
     return(
         <div className="outro--wrapper" id="outroWrap">
                 <div className="outro--content">
@@ -37,6 +43,9 @@ function Outro() {
                             <div className="linkedin">
                                 <span className="footer-star">✧</span><a target="_blank" href="mailto:jmyoon@usc.edu" > jmyoon@usc.edu</a>
                             </div>
+                        </div>
+                        <div className="footermessage" style={tagStyle}>
+                            coded and designed by jenn :)
                         </div>
                         {/* <div className="footer-links">
                             <div className="linkedin">

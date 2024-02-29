@@ -8,7 +8,7 @@
     background-color: var(--accent_color);
     color: var(--secondary_text);
     font-family: PPRaderBold;
-    z-index: 2;
+    /* z-index: 2; */
     width: 100%;
     padding: 4rem 0 1.5rem 0;
 }
@@ -17,6 +17,7 @@
     width: 90%;
     margin: 0 3rem 0 3rem;
     min-height: 40vh;
+    position: relative;
 }
 .outro--slide {
     --gap: 20px; 
@@ -74,6 +75,23 @@
 .slide2{
     display: flex;
     flex-direction: row;
+}
+.footer--wrapper{
+    position: relative;
+    z-index: 100000000000000;
+}
+.footermessage{
+
+    background-color: var(--accent_color);
+    position: fixed;
+    bottom: 2px;
+    font-size: 16px;
+    font-family: apfel;
+    z-index: 80000000000;
+    color: var(--secondary_text);
+    left: 2px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 @keyframes slide {

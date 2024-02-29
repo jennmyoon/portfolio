@@ -116,7 +116,7 @@ function Main() {
           <Home/>
           <Works scrollPosition = {scrollPos}/>
           <About/>
-          <Outro/>
+          <Outro scrollPosition={scrollPos}/>
         </div>
 
   );
